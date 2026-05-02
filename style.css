@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background-color: #eef3f7;
+    color: #222222;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.page-table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border: 1px solid #9aa8b2;
+}
+
+.header {
+    background-color: #1f5d7a;
+    color: #ffffff;
+    text-align: center;
+    padding: 22px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.menu-cell {
+    width: 28%;
+    vertical-align: top;
+    background-color: #f5fafc;
+    border-left: 1px solid #9aa8b2;
+    padding: 24px;
+}
+
+.content-cell {
+    vertical-align: top;
+    padding: 24px;
+    line-height: 1.7;
+}
+
+.image-cell {
+    width: 45%;
+    vertical-align: top;
+    padding: 24px;
+    background-color: #f5fafc;
+    border-left: 1px solid #9aa8b2;
+}
+
+.menu {
+    margin: 0;
+    padding-right: 22px;
+}
+
+.menu li {
+    margin-bottom: 14px;
+}
+
+a {
+    color: #0b5c8a;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #9b3a26;
+}
+
+.map-image {
+    width: 800px;
+    max-width: 100%;
+    border: 1px solid #9aa8b2;
+}
+
+.place-image {
+    width: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    border: 1px solid #9aa8b2;
+}
+
+.home-link {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #d8e6ee;
+    padding: 14px;
+    border-top: 1px solid #9aa8b2;
+}

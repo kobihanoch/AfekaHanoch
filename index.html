@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>5 האתרים הכי יפים שבקרתי או שרוצה לבקר</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table class="page-table">
+        <tr>
+            <td colspan="2" class="header">
+                <h1>5 האתרים הכי יפים שבקרתי או שרוצה לבקר</h1>
+            </td>
+        </tr>
+        <tr>
+            <td class="menu-cell">
+                <h2>תפריט אתרים</h2>
+                <ul class="menu">
+                    <li><a href="eiffel.html">מגדל אייפל</a></li>
+                    <li><a href="machu-picchu.html">מאצ'ו פיצ'ו</a></li>
+                    <li><a href="petra.html">פטרה</a></li>
+                    <li><a href="colosseum.html">הקולוסיאום</a></li>
+                    <li><a href="great-wall.html">החומה הסינית</a></li>
+                </ul>
+            </td>
+            <td class="content-cell">
+                <h2>מפה ממופת</h2>
+                <p>
+                    אפשר ללחוץ על המקומות המסומנים במפה כדי לעבור לדף המתאים.
+                </p>
+                <img class="map-image"
+                     src="images/world-map.jpg"
+                     alt="מפת עולם"
+                     usemap="#places-map">
+                <map name="places-map">
+                    <area shape="circle" coords="391,191,18" href="eiffel.html" alt="מגדל אייפל" title="מגדל אייפל">
+                    <area shape="circle" coords="260,365,18" href="machu-picchu.html" alt="מאצ'ו פיצ'ו" title="מאצ'ו פיצ'ו">
+                    <area shape="circle" coords="460,256,18" href="petra.html" alt="פטרה" title="פטרה">
+                    <area shape="circle" coords="405,218,18" href="colosseum.html" alt="הקולוסיאום" title="הקולוסיאום">
+                    <area shape="circle" coords="606,214,18" href="great-wall.html" alt="החומה הסינית" title="החומה הסינית">
+                </map>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="footer">
+                אתר תרגיל 1 בקורס Web Development
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
